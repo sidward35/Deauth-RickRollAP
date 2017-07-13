@@ -4,10 +4,7 @@
 
 ### What it is
 
-Basically it’s a device which performs a [deauth attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack).  
-You select the clients you want to disconnect from their network and start the attack. As long as the attack is running, the
-selected devices are unable to connect to their network.  
-Other attacks also have been implemented, such as beacon or probe request flooding.  
+Basically it’s a device which performs a [deauth attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) and also sends [beacon frames](https://en.wikipedia.org/wiki/Beacon_frame) to flood the list of available WiFi networks with "fake" Access Points. The fake networks will appear in the list of available networks, but will not work when the user tries to connect to them.
 
 ### How it works
 
