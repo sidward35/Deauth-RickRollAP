@@ -4,7 +4,7 @@
 
 ### What it is
 
-Basically it’s a device which performs a [deauth attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) and also sends [beacon frames](https://en.wikipedia.org/wiki/Beacon_frame) to flood the list of available WiFi networks with "fake" Access Points. The fake networks will appear in the list of available networks, but will not work when the user tries to connect to them.
+Basically it’s a device which performs a [deauth attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) and sends [beacon frames](https://en.wikipedia.org/wiki/Beacon_frame) to flood the list of available WiFi networks with "fake" Access Points. The fake networks will appear in the list of available networks, but will not work when the user tries to connect to them.
 
 ### How it works
 
