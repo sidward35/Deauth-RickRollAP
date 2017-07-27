@@ -75,8 +75,7 @@ The NodeMCU and every other board use the ESP-12 which has 4mb flash on it.
 
 **0** [Download](https://github.com/sidward35/Deauth-RickRollAP/raw/master/Deauth-RickRollAP.bin) the current release  
 
-**1** Upload using the ESP8266 flash tool of your choice. I recommend using the [nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher). If this doesn't work you can also use the official [esptool](https://github.com/espressif/esptool) from espressif. On Linux machines, run ```python
-esptool.py --port /dev/ttyUSB0  write_flash 0x00000 Deauth-RickRollAP.bin```
+**1** Upload using the ESP8266 flash tool of your choice. I recommend using the [nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher). If this doesn't work you can also use the official [esptool](https://github.com/espressif/esptool) from espressif. On Linux machines, run ```esptool.py --port /dev/ttyUSB0  write_flash 0x00000 Deauth-RickRollAP.bin```
 
 **That's all! :)**
 
